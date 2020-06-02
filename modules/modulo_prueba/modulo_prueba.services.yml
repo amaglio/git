@@ -1,0 +1,6 @@
+services:
+  modulo_prueba.event_subscriber:
+    class: Drupal\modulo_prueba\EventSubscriber\ModuloPruebaSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }

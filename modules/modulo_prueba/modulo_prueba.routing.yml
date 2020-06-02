@@ -1,0 +1,15 @@
+modulo_prueba.example:
+  path: '/modulo-prueba/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\modulo_prueba\Controller\ModuloPruebaController::build'
+  requirements:
+    _permission: 'access content'
+
+modulo_prueba.settings_form:
+  path: '/admin/config/system/modulo-prueba'
+  defaults:
+    _title: 'modulo_prueba settings'
+    _form: 'Drupal\modulo_prueba\Form\SettingsForm'
+  requirements:
+    _permission: 'administer modulo_prueba configuration'

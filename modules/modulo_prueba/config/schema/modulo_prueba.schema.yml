@@ -1,0 +1,7 @@
+
+action.configuration.adrian:
+    type: adrian
+    label: 'Hace algo' 
+action.configuration.corriendo:
+    type: corriendo
+    label: 'Hace algo'

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: adrian
+label: 'Accion adrian'
+type: node
+plugin: adrian
+configuration: {  }

@@ -1,0 +1,4 @@
+administer modulo_prueba configuration:
+  title: 'Administer modulo_prueba configuration'
+  description: 'Optional description.'
+  restrict access: true
