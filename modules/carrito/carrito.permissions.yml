@@ -1,0 +1,4 @@
+administer carrito configuration:
+  title: 'Administer carrito configuration'
+  description: 'Optional description.'
+  restrict access: true

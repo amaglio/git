@@ -1,0 +1,15 @@
+carrito.example:
+  path: '/carrito/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\carrito\Controller\CarritoController::build'
+  requirements:
+    _permission: 'access content'
+
+carrito.settings_form:
+  path: '/admin/config/system/carrito'
+  defaults:
+    _title: 'carrito settings'
+    _form: 'Drupal\carrito\Form\SettingsForm'
+  requirements:
+    _permission: 'administer carrito configuration'

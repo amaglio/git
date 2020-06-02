@@ -1,0 +1,6 @@
+services:
+  carrito.event_subscriber:
+    class: Drupal\carrito\EventSubscriber\CarritoSubscriber
+    arguments: ['@messenger']
+    tags:
+      - { name: event_subscriber }
