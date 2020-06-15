@@ -1,4 +1,4 @@
-name: bts
+name: bts commit
 type: theme
 description: 'Basic structure for a Bootstrap Barrio SubTheme.'
 core: 8.x
@@ -37,3 +37,9 @@ regions:
 version: '8.x-4.28'
 project: 'bootstrap_barrio'
 datestamp: 1589051364
+
+# Componentes 
+component-libraries:
+  demo:
+    paths:
+      - src/components
