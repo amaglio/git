@@ -1,4 +1,4 @@
-name: bts commit
+name: bts stage
 type: theme
 description: 'Basic structure for a Bootstrap Barrio SubTheme.'
 core: 8.x
